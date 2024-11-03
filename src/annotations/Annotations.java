@@ -165,7 +165,8 @@ public class Annotations {
 			return;
 		}
 		if (markNumb > assessments.toArray().length) {
-			System.out.println("переполнение списка. количество оценок студента - " + assessments.toArray().length);
+			System.out.println("переполнение списка. количество оценок студента - " + assessments.toArray()
+					   .length);
 			return;
 		}
 		assessments.remove(markNumb - 1);
